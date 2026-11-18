@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> practice</title>
+    <link href="style.css" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+        <div class="main">
+       <div class="logo">
+        <img src="./pictures/olx-removebg-preview.png" alt="logo">
+       </div>
+       <div class="card">
+         <img src="./pictures/car-removebg-preview.png" alt="car">
+       </div> 
+       <h4>Motors</h4>
+       <div class="house">
+         <img src="./pictures/house2.png" alt="house">
+       </div>
+       <h4>Property</h4>
+       </div>
+       <a href="#">Login</a>
+       <button class="btn" type="button">
+        <i class="fa-solid fa-plus"></i>
+        <span>SELL</span>
+    </button>
+
+    </nav>
+    <div class="finding">
+      
+      <select id="city">
+        <option>Pakistan</option>
+        <option>Karachi</option>
+        <option>punjan</option>
+       </select>
+       <div class="search">
+        <input type="text" placeholder="Find cars, Mobile phones and More...">
+        <div class="inner">
+          <div>
+          <i class="fa-solid fa-magnifying-glass"></i></div>
+        <div class="call"><button  type="button">Search</button></div>
+        </div>
+       </div>
+    </div>
+    </header>
+    <hr>
+    <div class="container">
+    <div class="outer1">
+        <select id="sell"> 
+           <option>All Categories</option>
+           <option>mobile</option>
+           <option>bikes</option>
+    </select>
+    </div>
+    <div class="items">
+       <ul>
+        <li>Mobile Phones</li>
+        <li>Cars</li>
+        <li>Motorcycles</li>
+        <li>Houses</li>
+        <li>Video-Audios</li>
+        <li>Tablets</li>
+        <li>Land & Plots</li>
+       </ul>
+    </div>
+    </div>
+    <div class="banner">
+      <img src="./pictures/Banners-01.png" alt="banner">
+    </div>
+    <div class="choose">
+      <div class="img1">
+        <img src="./pictures/mobile.png" alt="options">
+        <h3>Mobiles</h3>
+      </div>
+      <div class="img2">
+        <img src="./pictures/vehicle.png" alt="options">
+        <h3>Vehicles</h3>
+      </div>
+      <div class="img3">
+        <img src="./pictures/property.png" alt="options">
+        <h3>Property For Sale</h3>
+      </div>
+      <div class="img4">
+        <img src="./pictures/property-for-rent..png" alt="options">
+        <h3>Property For Rent</h3>
+      </div>
+      <div class="img5">
+        <img src="./pictures/electronics-home-appliances.png" alt="options">
+        <h3>Electronics & Home Appliances</h3>
+      </div>
+      <div class="img6">
+        <img src="./pictures/bikes..png" alt="options">
+        <h3>Bikes</h3>
+      </div>
+      <div class="img7">
+        <img src="./pictures/business-industrial.png" alt="options">
+        <h3>Business, Industry &...</h3>
+      </div>
+      <div class="img8">
+        <img src="./pictures/services..png" alt="options">
+        <h3>Services</h3>
+      </div>
+      <div class="img9">
+        <img src="./pictures/jobs..png" alt="options">
+        <h3>Jobs</h3>
+      </div>
+      <div class="img10">
+        <img src="./pictures/animals.png" alt="options">
+        <h3>Animals</h3>
+      </div>
+      <div class="img11">
+        <img src="./pictures/furniture.png" alt="options">
+        <h3>Furniture & Home Decor</h3>
+      </div>
+      <div class="img12">
+        <img src="./pictures/fashion.png" alt="options">
+        <h3>Fashion & Beauty</h3>
+      </div>
+      <div class="img13">
+        <img src="./pictures/books.png" alt="options">
+        <h3>Books, Sports & Hobbies</h3>
+      </div>
+      <div class="img14">
+        <img src="./pictures/kids.png" alt="options">
+        <h3>Kids</h3>
+      </div>
+    </div>
+    <div class="end">
+      <h1>Mobile Phones</h1>
+      <a href="#">View More</a>
+    </div>
+    <div class="phones">
+      <div class="buy">
+        <img src="data:image/jpeg;base64,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" alt="phone">
+        <div class="mark">
+        <h3>Call For Price</h3>
+        <h1>&#x2661;</h1>
+        </div>
+        <p>4 day ago</p>
+      </div>
+      <div class="buy1">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPPIDpQy7c4WnJLG3_qGLg5_MT1UYFrAIfjeKFW8fpu27zKaVpfrKpzDo&s" alt="phone">
+        <div class="mark">
+        <h3>Rs 4.20 Lac</h3>
+        <h1>&#x2661;</h1>
+        </div>
+        <p>1 week ago</p>
+      </div>
+      <div class="buy2">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR801qHqTWxSMOlNgc7re-Nfu5ZxqoZul-3fdaml406PQ&s=10" alt="phone">
+        <div class="mark">
+        <h3>Rs 1.58 Lac</h3>
+        <h1>&#x2661;</h1>
+        </div>
+        <p>4 days ago</p>
+      </div>
+      <div class="buy3">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu60djAo1oHXKAk6J7JLxbDP3A4xUdNevL_-FcTfGmtQ&s=10" alt="phone">
+        <div class="mark">
+        <h3>Rs 80,000</h3>
+        <h1>&#x2661;</h1>
+        </div>
+        <p>1 hour ago</p>
+      </div>
+    </div>
+    <div class="car">
+        <h1>Cars</h1>
+        <a href="#">View More</a>
+      </div>
+      <div class="cars">
+        <div class="car1">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReKQynp9VSfur2Ev6VUy7ItzpT88xD5GttpLLRbHPiSg&s=10" alt="car">
+          <div class="mask">
+            <h3>Rs 24.25 Lac</h3>
+            <h1>&#x2661;</h1>
+          </div>
+          <p> 4 weeks ago</p>
+        </div>
+        <div class="car1">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_Hfh1ea4rfJ4i-80E4wagYldtPoy5oNZu1eZanqYGJA&s=10" alt="car">
+          <div class="mask">
+            <h3>Rs 50 Lac</h3>
+            <h1>&#x2661;</h1>
+          </div>
+          <p> 1 month ago</p>
+        </div>
+        <div class="car1">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWgzQ5VUkf1H4vtVTX5Txy4niyONJaqZu9LM2SNfXyWg&s=10" alt="car">
+          <div class="mask">
+            <h3>Rs 30 Lac</h3>
+            <h1>&#x2661;</h1>
+          </div>
+          <p> 2 weeks ago</p>
+        </div>
+        <div class="car1">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgz2s45SyeqqdD1rwkFD8DJZdWNI-Mqc21BsYWyirWUA&s=10" alt="car">
+          <div class="mask">
+            <h3>RS 80 Lac</h3>
+            <h1>&#x2661;</h1>
+          </div>
+          <p>1 month ago</p>
+        </div>
+      </div>
+      <div class="bike">
+        <h1>Bikes & Motorcycles</h1>
+        <a href="#">View More</a>
+      </div>
+      <div class="bikes">
+        <div class="bike1">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKyzMVyjfEpVm74fPrLleDoXMxdmV4TvcUshNlzP_PXw&s=10" alt="bike">
+          <div class="mass">
+            <h3>1.23 Lac</h3>
+            <h1>&#x2661;</h1>
+          </div>
+          <p> 2 weeks ago</p>
+        </div>
+        <div class="bike1">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0QAL1ZJnmwUEi_bR32JX3OwQKcE3_vNBKr3anTR99NA&s=10" alt="bike">
+          <div class="mass">
+            <h3>2.78 Lac</h3>
+            <h1>&#x2661;</h1>
+          </div>
+          <p> 1 month ago</p>
+        </div>
+        <div class="bike1">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTz05CvKbvgksGnp_17-_tjSrLSidRMiv1txMTbR99Fw&s=10" alt="bike">
+          <div class="mass">
+            <h3>4 Lac</h3>
+            <h1>&#x2661;</h1>
+          </div>
+          <p> 2 days ago</p>
+        </div>
+        <div class="bike1">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMZkWpCF7gj-MGbvCG1Q87J524atrekdBk8nHN_B9ujg&s=10" alt="bike">
+          <div class="mass">
+            <h3>1.90 Lac</h3>
+            <h1>&#x2661;</h1>
+          </div>
+          <p>1  day ago</p>
+        </div>
+      </div>
+      <hr>
+      <footer>
+        <div class="outer">
+          <div class="left">
+            <h1>Find amazing deals on the go.</h1>
+            <h2>Download OLX app now!</h2>
+          </div> 
+        </div>
+        <hr>
+        <div class="foot">
+          <div class="one">
+            <h3>Popular Categories</h3>
+            <ul>
+              <li>Cars</li>
+              <li>Flats for rent</li>
+              <li>Mobile Phones</li>
+              <li>Jobs</li>
+            </ul>
+          </div>
+          <div class="two">
+            <h3>Trending Searches</h3>
+            <ul>
+              <li>Bikes</li>
+              <li>Watches</li>
+              <li>Books</li>
+              <li>Dogs</li>
+            </ul>
+          </div>
+          <div class="three">
+            <h3>About us</h3>
+            <ul>
+              <li>OLX Blog</li>
+              <li>Contact us</li>
+              <li>OLX for Business</li>
+            </ul>
+          </div>
+          <div class="four">
+            <h3>OLX</h3>
+            <ul>
+              <li>Help</li>
+              <li>Sitemap</li>
+              <li>Term of services</li>
+              <li>Privacy policy</li>
+            </ul>
+          </div>
+        </div>
+        <div class="last">
+          <p>Classified in Pakistan &copy; 2006-2026 OLX</p>
+        </div>
+      </footer>
+</body>
+
+</html>

@@ -1,0 +1,554 @@
+
+header{
+    position: sticky;
+    top: 0px;
+}
+.navbar{
+    background-color: rgb(205, 238, 252);
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    margin-left: 30px;
+    padding-left: 10px; 
+    padding-top: 5px; 
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: 10px;
+}
+.logo img{
+    width: 30px;
+    height: 40px;
+}
+.card img{
+  width: 80px;
+  height: 50px;  
+}
+.house img{
+    width: 50px;
+    height: 50px;
+}
+.btn{
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    border-radius: 50px;
+    border-color: purple;
+    border-width: 5px;
+    
+}
+a{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 700px;
+    
+}
+
+.main{
+    width:30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+h4{
+    font-weight: bold;
+    font-size: 20px;
+}
+.finding{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    
+}
+#city{
+    width:500px;
+    height: 50px;
+    margin-left: 40px;
+    border-radius: 10px;
+    font-size: 16px;
+    border: 1px solid black;
+}
+.search{
+    display: flex;
+     
+}
+.search input{
+   width: 800px;
+    height: 40px;
+    border: 1px solid black;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-left: 20px;
+    font-size: 17px;
+}
+/* .search button{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width:100px;
+    font-size: 15px; */
+    /* background-color: black;
+    color: white; */
+/* } */
+.inner{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width:100px;
+    background-color: black;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.inner i{
+    color: white;
+}
+.call button{
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: bolder;
+}
+/* .outer{
+    width: 100%;
+    height: 50px; */
+    /* background-color: darkgray; */
+/* } */
+.outer1 select{
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    align-items: center;
+    
+}
+.items ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+    
+}
+.items ul li{
+    list-style: none;
+}
+.banner img{
+    width: 100%;
+    height: 200px;
+}
+/* .img1{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(145, 145, 40);
+}
+.img1 img{
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+} */
+.choose{
+    display: grid;
+    grid-template-columns: repeat(9,minmax(0, 1fr));
+    width: 100%;
+}
+.img1 img{
+    width: 90px;
+    height: auto;
+    object-fit: contain;
+}
+.img1{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+    padding: 10px; 
+}
+.img2 img{
+    width: 90px;
+    height: auto;
+    object-fit: contain;
+}
+.img2{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+    padding: 10px; 
+}
+.img3 img{
+    width: 90px;
+    height: auto;
+    object-fit: contain;
+}
+.img3{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+    padding: 10px; 
+}
+.img4 img{
+    width: 90px;
+    height: auto;
+    object-fit: contain;
+}
+.img4{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+    padding: 10px; 
+}
+.img5 img{
+    width: 100px;
+    height: auto;
+    object-fit: contain;
+}
+.img5{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+    padding: 10px; 
+}
+.img6 img{
+    width: 90px;
+    height: auto;
+    object-fit: contain;
+}
+.img6{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+    padding: 10px; 
+}
+.img7 img{
+    width: 90px;
+    height: auto;
+    object-fit: contain;
+}
+.img7{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+    padding: 10px; 
+}
+.img8 img{
+    width: 90px;
+    height: auto;
+    object-fit: contain;
+}
+.img8{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+    padding: 10px; 
+}
+.img9 img{
+    width: 90px;
+    height: auto;
+    object-fit: contain;
+}
+.img9{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+    padding: 10px; 
+}
+.img10 img{
+    width: 90px;
+    height: auto;
+    object-fit: contain;
+}
+.img10{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+    padding: 10px; 
+}
+.img11 img{
+    width: 90px;
+    height: auto;
+    object-fit: contain;
+}
+.img11{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+    padding: 10px; 
+}
+.img12 img{
+    width: 90px;
+    height: auto;
+    object-fit: contain;
+}
+.img12{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    padding: 10px; 
+}
+.img13 img{
+    width: 90px;
+    height: auto;
+    object-fit: contain;
+}
+.img13{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+    padding: 10px; 
+}
+.img14 img{
+    width: 90px;
+    height: auto;
+    object-fit: contain;
+}
+.img14{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+    padding: 10px; 
+}
+.end{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.end a{
+    text-decoration: none;
+    color: rgb(62, 163, 209);
+}
+.phones{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around;
+}
+.buy{
+    width: 300px;
+    height: 350px;
+    background-color:silver ;
+    line-height: 1.5px;
+    border: 0.5px solid rgb(219, 219, 219);
+}
+.buy img{
+    width: 300px;
+}
+.mark{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mark h3{
+    font-size: 20px;
+}
+.buy1{
+    width: 300px;
+    height: 350px;
+    background-color:silver;
+    line-height: 1.5px;
+    border: 0.5px solid rgb(219, 219, 219);
+}
+.buy1 img{
+    width: 300px;
+}
+
+.buy2{
+    width: 300px;
+    height: 350px;
+    background-color:silver;
+    line-height: 1.5px;
+    border: 0.5px solid rgb(219, 219, 219);
+}
+.buy2 img{
+    width: 300px;
+    height: 250px;
+}
+
+.buy3{
+    width: 300px;
+    height: 350px;
+    background-color:silver;
+    border: 0.5px solid rgb(219, 219, 219);
+    line-height: 1.5px;
+}
+.buy3 img{
+    width: 300px;
+    height: 250px;
+}
+.car{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.car a{
+    text-decoration: none;
+    color: rgb(62, 163, 209);
+}
+.cars{
+     display: flex; 
+    align-items: center; 
+    justify-content: space-around;
+}
+.mask{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mask h3{
+    font-size: 20px;
+}
+.car1{
+     width: 300px;
+    height: 350px;
+    background-color: silver;
+    border: 0.5px solid rgb(219, 219, 219);
+    line-height: 1.5px;
+}
+.car1 img{
+    width: 300px;
+    height: 200px;
+}
+.bikes{
+     display: flex; 
+    align-items: center; 
+    justify-content: space-around;
+}
+.bike{
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.bike a{
+    text-decoration: none;
+    color: rgb(62, 163, 209); 
+}
+.mass{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mass h3{
+    font-size: 20px;
+}
+.bike1{
+     width: 300px;
+    height: 350px;
+    background-color: silver;
+    border: 0.5px solid rgb(219, 219, 219);
+    line-height: 1.5px;
+}
+.bike1 img{
+    width: 300px;
+    height: 200px;
+}
+.outer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    
+    /* background-color: rgb(203, 212, 209); */
+}
+.left h2{
+    color: blue;
+}
+.one ul li{
+    list-style: none;
+}
+.two ul li{
+    list-style: none;
+}
+.three ul li{
+    list-style: none;
+}
+.four ul li{
+    list-style: none;
+}
+.foot{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.last{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.last p{
+  color: aliceblue;
+  font-size: 15px;
+
+}
